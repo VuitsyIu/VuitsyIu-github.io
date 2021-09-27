@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap');
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+div > img {
+    width: 300px;
+    height: 300px;
+}
+#circle {
+    background-image: url(https://c8.alamy.com/comp/EB6275/marsh-billings-rockefeller-national-historical-park-woodshed-full-EB6275.jpg);
+    width: 1200px;
+    height: 700px;
+    background-repeat: round;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: row;
+    padding: 5%;
+}
+body {
+    background-color: black;
+}
+nav {
+    padding: 20px 20px 20px 20px;
+    margin-top: 100px;
+}
+.blockInfo, .blockEducation, .blockSkills {
+    width: 800px;
+    height: 400px;
+    border: 5px solid gray;
+    border-radius: 20px;
+    background-color: grey;
+    color: black;
+    font-size: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+#imageInfo {
+    margin-left: 300px;
+    top: -80px;
+    position: relative; 
+}
+#imagePhoto {
+    position: relative;
+    float: right;
+    margin-left: 100px;
+    top: -150px;
+}
+#photoEducation {
+    position: relative;
+    top:-510px;
+    left: 100px;
+}
+#blockData {
+    max-width: 500px;
+    border: 3px solid violet;
+    background-color: aliceblue;
+    padding: 0 20px 0 120px;
+    border-radius: 25px;
+    font-family: 'Koh Santepheap', cursive;
+    box-shadow: 12px 12px 2px 1px black (0, 0, 255, .2);
+}
+#blockInfoHeader, #blockEducationHeader, #blockExperienceHeader, #blockSkillsHeader {
+    font-weight: bold;
+    margin-left: 450px;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 2em;
+}
+
+nav li:hover  .blockInfo {
+    visibility: visible;
+    opacity: 1;
+}
+nav li:hover  .blockEducation {
+    visibility: visible;
+    opacity: 1;
+    bottom: 510px;
+    position: relative;
+}
+.blockExperience {
+    width: 800px;
+    height: 400px;
+    border: 5px solid gray;
+    border-radius: 20px;
+    background-color: grey;
+    color: black;
+    font-size: 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+nav li:hover  .blockExperience {
+    visibility: visible;
+    opacity: 1;
+    bottom: 1028px;
+    position: relative;
+}
+a:hover ~ .blockProjects{
+    visibility: visible; 
+    opacity: 1;
+    position: relative;
+    
+}
+#projects {
+    display:flex;
+    order: 2;
+
+}
+.blockProjects {
+    width: 500px;
+    max-height: 400px;
+    margin-top: 100px;
+    border: 5px solid gray;
+    border-radius: 20px;
+    background-color: grey;
+    color: black;
+    font-size: 20px;
+    visibility: hidden;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    transition: visibility 0s, opacity 1s linear;
+}
+#blockProjectsHeader {
+    font-weight: bold;
+    font-family: 'Stick No Bills', sans-serif;
+    margin-left: 50px;
+}
+#imageProjects{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 250px;
+}
+#photoExperience {
+    position: relative;
+    top: -1025px;
+    left: 200px;
+}
+#blockDataExperince {
+    max-width: 700px;
+    min-height: 250px;
+    margin-top: -60px;
+    margin-left: 45px;
+    border: 3px solid violet;
+    background-color: aliceblue;
+    border-radius: 25px;
+    font-family: 'Koh Santepheap', cursive;
+    box-shadow: 12px 12px 2px 1px black (0, 0, 255, .2);
+    padding: 10px 10px 10px 10px;
+    display: flex;
+}
+#stepOne, #stepTwo, #stepThree, #stepFour {
+    border: 2px solid violet;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    font-family: 'Koh Santepheap', cursive;
+    box-shadow: 12px 12px 2px 1px black (0, 0, 255, .2);
+    position: relative;
+    max-width: 140px;
+    max-height: 90px;
+    margin: 10px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+} 
+.frameBlock {
+    position: relative;
+    height: 10px;
+    width: 600px;
+    border: 10px solid violet;
+    border-radius: 15px;
+    display: flex;
+    background-color: white;
+    margin-left: -620px;
+    margin-top: 180px;
+}
+@-webkit-keyframes progress{
+    25% {
+    width: 25%;
+    }
+    50% {
+    width: 50%;
+        }
+    75% {
+    width: 75%;
+        }
+    100% {
+    width: 100%;
+    }
+}
+.Progress {
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progress 4s infinite linear;
+    animation-iteration-count: 1;    
+}
+#photoSkills {
+  position: relative;
+  top:-1540px;
+  left: 310px;
+}
+nav li:hover  .blockSkills {
+    visibility: visible;
+    opacity: 1;
+    bottom: 1535px;
+    position: relative;
+}
+#imageSkills {
+    position: relative;
+
+}
+#blockDataSkills {
+    max-width: 500px;
+    border: 3px solid violet;
+    background-color: aliceblue;
+    padding: 0 20px 0 120px;
+    border-radius: 25px;
+    font-family: 'Koh Santepheap', cursive;
+    box-shadow: 12px 12px 2px 1px black (0, 0, 255, .2);
+    margin-top: -120px; 
+}
+@media screen and (max-width: 1200px) {
+    #circle {
+        width: 1000px;
+        background-repeat: round;
+        margin-left: 3%;
+        padding: 0%;
+    }
+    .mainImage {
+        margin-right: 1000px;
+    }
+
+    a:hover ~ .blockProjects{
+        visibility: visible; 
+        opacity: 1;
+        position: absolute;
+        right: 150px;
+        up: 50px;
+    }
+}
+@media screen and (max-width: 980px) {
+    #circle{
+        width: 600px;
+        height: 400px;
+    }
+    .mainImage {
+        position: absolute;
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blockProjects, .blockInfo, .blockExperience, .blockSkills, .blockEducation {
+    width: 500px;
+}
+    #cirle {
+        padding: 0px;
+    }
+    #blockDataSkills {
+        padding: 0;
+        width: 450px;
+    }
+    #blockInfoHeader {
+        margin-left: 10px;
+    }
+    #imagePhoto {
+        visibility: hidden;
+    }
+    #blockEducationHeader {
+        margin-left: 10px;
+    }
+    #blockExperienceHeader {
+        margin-left: 10px;
+    }
+    #blockSkillsHeader {
+        margin-left: 10px;
+    }
+    #imageSkills {
+      float: right;
+    }
+    #blockDataSkills {
+        margin-top: 0;
+        width: 500px;
+    }
+    #blockDataExperience {
+        margin-left: 0;
+        padding: 0px 0px 0px 0px;
+        width: 500px;
+    }
+    .blockExperience {
+        padding: 0px 0px 0px 0px;
+        margin-left: 0;
+        width:500px;
+
+    }
+    .frameBlock {
+        width: 500px;
+        margin-left: -400px;
+    
+    }
+    #stepOne, #stepTwo, #stepThree, #stepFour {
+        width: 110px;
+        min-height: 165px;
+        padding: 3px 0px 1px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+}
+    
+
+   
