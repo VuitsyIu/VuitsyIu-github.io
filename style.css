@@ -122,7 +122,7 @@ a:hover ~ .blockProjects{
 }
 .blockProjects {
     position: absolute;
-    width: 500px;
+    width: 50vw;
     max-height: 400px;
     margin: 0 auto;
     left: 75vw;
