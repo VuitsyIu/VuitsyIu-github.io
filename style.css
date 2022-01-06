@@ -186,7 +186,8 @@ a:hover ~ .blockProjects{
     height: 10px;
     border-radius: 15px;
     animation: progress 10s infinite linear;
-    animation-iteration-count: 4;    
+    animation-iteration-count: 10;
+    animation-delay: 15s;
 }
 @-webkit-keyframes progress{
     25% {
