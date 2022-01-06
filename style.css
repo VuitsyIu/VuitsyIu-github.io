@@ -178,6 +178,15 @@ a:hover ~ .blockProjects{
     margin-left: -620px;
     margin-top: 180px;
 }
+.Progress {
+    position: absolute;
+    background-color: black;
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progress 4s infinite linear;
+    animation-iteration-count: 1;    
+}
 @-webkit-keyframes progress{
     25% {
     width: 25%;
@@ -191,15 +200,6 @@ a:hover ~ .blockProjects{
     100% {
     width: 100%;
     }
-}
-.Progress {
-    position: absolute;
-    background-color: black;
-    width: 0px;
-    height: 10px;
-    border-radius: 15px;
-    animation: progress 4s infinite linear;
-    animation-iteration-count: 1;    
 }
 #photoSkills {
   position: relative;
