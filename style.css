@@ -116,7 +116,7 @@ a:hover ~ .blockProjects{
     width: 500px;
     max-height: 400px;
     margin: 0 auto;
-    left: 200px;
+    left: 50vw;
     border: 5px solid gray;
     border-radius: 20px;
     background-color: grey;
