@@ -225,14 +225,6 @@ nav li:hover  .blockSkills {
     box-shadow: 12px 12px 2px 1px black (0, 0, 255, .2);
     margin-top: -120px; 
 }
-@media screen and (max-width: 1500px) {
-    a:hover ~ .blockProjects{
-        visibility: visible; 
-        opacity: 1;
-        position: absolute;
-        right: -150px;
-    }
-
 @media screen and (max-width: 1200px) {
     #circle {
         width: 1000px;
