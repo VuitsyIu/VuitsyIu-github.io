@@ -269,6 +269,9 @@ nav li:hover  .blockSkills {
     .blockProjects, .blockInfo, .blockExperience, .blockSkills, .blockEducation {
     width: 500px;
     }
+    .blockProjects {
+        margin-left: 10vw;
+        }
 }
 
 @media screen and (max-width: 600px) {
