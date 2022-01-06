@@ -112,10 +112,10 @@ a:hover ~ .blockProjects{
 
 }
 .blockProjects {
+    position: absolute;
     width: 500px;
     max-height: 400px;
-    margin-top: -100px;
-    margin-left: -20vw;
+    margin: 0 auto;
     border: 5px solid gray;
     border-radius: 20px;
     background-color: grey;
