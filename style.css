@@ -255,6 +255,9 @@ nav li:hover  .blockSkills {
         right: 150px;
         up: 50px;
     }
+    .blockProjects {
+     left: 10vw;   
+    }
 }
 @media screen and (max-width: 980px) {
     #circle{
