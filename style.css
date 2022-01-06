@@ -103,13 +103,10 @@ nav li:hover  .blockExperience {
 a:hover ~ .blockProjects{
     visibility: visible; 
     opacity: 1;
-    position: relative;
-    
 }
 #projects {
     display:flex;
     order: 2;
-
 }
 .blockProjects {
     position: absolute;
@@ -233,8 +230,7 @@ nav li:hover  .blockSkills {
         visibility: visible; 
         opacity: 1;
         position: absolute;
-        right: 150px;
-        up: 50px;
+        right: -150px;
     }
 
 @media screen and (max-width: 1200px) {
