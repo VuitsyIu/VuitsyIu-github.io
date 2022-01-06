@@ -256,7 +256,8 @@ nav li:hover  .blockSkills {
         up: 50px;
     }
     .blockProjects {
-     left: 10vw;   
+     margin-top: 0;
+     margin-left: 5vh;   
     }
 }
 @media screen and (max-width: 980px) {
@@ -273,7 +274,8 @@ nav li:hover  .blockSkills {
     width: 500px;
     }
     .blockProjects {
-        margin-left: 10vw;
+        margin-top: 0;
+        margin-left: 5vh;
         }
 }
 
@@ -333,7 +335,8 @@ nav li:hover  .blockSkills {
         margin: 0px 0px 0px 0px;
     }
     .blockProjects {
-        left: 10vw;
+        margin-top: 0;
+        margin-left: 5vh;
     }
     .blockExperience, #blockHard {
         padding: 3px 3px 3px 3px;
