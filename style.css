@@ -308,12 +308,12 @@ nav li:hover  .blockSkills {
         margin-left: 0;
         padding: 0px 0px 0px 0px;
         width: 500px;
+        
     }
     .blockExperience {
         padding: 0px 0px 0px 0px;
         margin-left: 0;
         width:500px;
-
     }
     .frameBlock {
         width: 500px;
@@ -326,6 +326,11 @@ nav li:hover  .blockSkills {
         padding: 3px 0px 1px 0px;
         margin: 0px 0px 0px 0px;
     }
+    .blockProjects {
+        left: 10vw;
+    }
+    .blockExperience, #blockHard {
+        padding: 3px 3px 3px 3px;
 }
     
 
